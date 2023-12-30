@@ -1,0 +1,29 @@
+.list {
+    display: flex;
+    list-style: none;
+    margin: 100px;
+}
+
+.list-item {
+    width: 100px;
+    height: 100px;
+}
+
+.first {
+    background-color: rgb(255, 136, 136);
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}
+
+.second {
+    background-color: rgb(126, 138, 235);
+    z-index: 1;
+}
+
+.thired {
+    background-color: rgb(77, 239, 153);
+    position: relative;
+    top: 50px;
+    right: 50px;
+}
